@@ -1,0 +1,55 @@
+.card {
+    max-width: 260px;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(98, 98, 112, 0.4);
+    box-shadow: -1px 1px 10px rgb(223, 223, 223, 1);
+    margin: 0 auto;
+}
+
+.card img {
+    width: 70px;
+    margin-bottom: 24px;
+}
+
+.name {
+    margin: 8px 0;
+}
+
+.title {
+    margin: 0;
+}
+
+.description {
+    margin: 32px 0;
+}
+
+.techs {
+    list-style: none;
+    padding: 0;
+}
+
+.techs li {
+    display: inline;
+    font-size: 12px;
+    margin: 0 12px 0 0;
+}
+
+
+.links {
+    margin-top: 32px;
+    text-align: right;
+}
+
+.links i {
+    font-size: 20px;
+    opacity: 0.5;
+    margin-left: 16px;
+}
+
+@media (max-width: 1400px) {
+    .card {
+        /* padding: 8vw; */
+    }
+}

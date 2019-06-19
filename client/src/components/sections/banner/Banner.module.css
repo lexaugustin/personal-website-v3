@@ -1,0 +1,159 @@
+#banner {
+    position: relative;
+    overflow: hidden;
+    height: 700px;
+}
+
+
+/* ==========================================================================
+Picture Side
+========================================================================== */
+#picture-side {
+    align-self: flex-end;
+    margin: 2vh 5% 0 5%;
+    position: relative;
+    bottom: calc(6% - 7.5vw);
+    /* background-color: red; */
+}
+
+#picture-side img {
+    max-width: 550px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* ==========================================================================
+Text Side
+========================================================================== */
+#text-side {
+    max-width: 500px;
+    align-self: center;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: silver; */
+}
+
+#text-side p:nth-of-type(1) {
+    font-size: 25px;
+    font-weight: 600;
+    color: #2C50C7;
+    margin: 0;
+}
+
+#text-side p:nth-of-type(1) span {
+    color: #5F5F5F;
+}
+
+#bar {
+    width: 200px;
+    height: 3px;
+    background-color: black;
+    align-self: flex-end;
+    margin: 24px 16%;
+}
+
+#text-side p:nth-of-type(2) {
+    font-weight: 300;
+    /* max-width: 460px; */
+    margin: 0;
+}
+
+/* ==========================================================================
+Media Querries
+========================================================================== */
+@media screen and (min-width: 725px) {
+    #banner-content {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #text-side {
+        padding: 32px 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    #banner-content {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    #picture-side {
+        /* margin: 8vh 5% 0 5%; */
+        /* margin: 0vh 5% 0 5%; */
+    }
+
+    #text-side {
+        padding: 64px 0;     
+    }
+
+    #bar {
+        width: 200px;
+        height: 3px;
+        background-color: black;
+        align-self: flex-end;
+        margin: 16px 16%;
+    }
+}
+
+@media screen and (min-width: 551px) and (max-width: 724px) {
+    
+    #banner-content {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    #picture-side {
+        /* margin: 8vh 5% 0 5%; */
+        /* margin: 0vh 5% 0 5%; */
+    }
+
+    #text-side {
+        padding: 32px 0;
+    }
+}
+
+@media screen and (min-width: 875px) {
+    #picture-side img {
+        float: left;
+    }
+}
+
+
+@media screen and (max-width: 959px) {
+    #banner {
+        height: 700px;
+        /* max-height: 93vh; */
+    }
+
+    #banner-content {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+    }
+
+    #picture-side {
+        align-self: center;
+        display: flex;
+    }
+
+    #picture-side img {
+        width: 80%;
+        align-self: center;
+    }
+
+    #text-side {
+        width: 80%;
+        text-align: center;
+    }
+
+}

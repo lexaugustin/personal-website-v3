@@ -1,0 +1,30 @@
+section {
+  padding: 100px 0;
+}
+
+section #main{
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+#about {
+  background-color: rgb(243, 243, 243);
+}
+
+#more-projects{
+  /* background-color: rgb(243, 243, 243); */
+}
+
+#career{
+  background-color: rgb(243, 243, 243);
+}
+
+#contact{
+  /* background-color: rgb(243, 243, 243); */
+}
+
+#footer {
+  /* background-color: #24292E; */
+  background-color: rgba(33,37,48,1);
+  color: #FFFFFF;
+}

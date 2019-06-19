@@ -1,0 +1,21 @@
+.icons {
+    list-style: none;
+    padding: 0;
+}
+
+.icons li {
+    display: inline-block;
+    margin: 0 16px 0 0;
+}
+
+@media (max-width: 959px) {
+    .icons li {
+        margin: 0 8px;
+    }
+}
+
+@media (max-width: 310px) {
+    .icons li {
+        margin: 8px;
+    }
+}
