@@ -27,7 +27,7 @@ const experiences = () => {
             </div>
 
 
-            <div className={styles.exp}>
+            <div className={styles.exp2}>
                 <Experience
                     logo = "https://cdn0.iconfinder.com/data/icons/shift-ecommerce/32/Visa_initial-512.png"
                     company = "Visa"

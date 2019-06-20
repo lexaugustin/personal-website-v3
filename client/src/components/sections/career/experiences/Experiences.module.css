@@ -4,12 +4,11 @@
     /* align-items: center; */
 }
 
-.experiences .exp:nth-child(even) {
-    align-self: flex-end;
-    
-}
-
 .experiences ul {
     list-style: none;
     padding: 0;
+}
+
+.exp2 .experience {
+    flex-direction: row-reverse;
 }

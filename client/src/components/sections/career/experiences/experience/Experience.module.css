@@ -6,9 +6,10 @@
     /* flex-wrap: wrap; */
 }
 
-/* .experience:nth-child(3) {
+.experience:nth-child(even) {
+    background-color: red;
     flex-direction: row-reverse;
-} */
+}
 
 
 

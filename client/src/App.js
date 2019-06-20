@@ -7,7 +7,7 @@ import Banner from './components/sections/banner/Banner'
 import About from './components/sections/about/About'
 import LatestProjects from './components/sections/latestProjects/LatestProjects'
 import MoreProjects from './components/sections/moreProjects/MoreProjects'
-import Career from './components/sections/career/experiences/Experiences'
+import Career from './components/sections/career/Career'
 import Contact from './components/sections/contact/Contact'
 import Footer from './components/sections/footer/Footer'
 
