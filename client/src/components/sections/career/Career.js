@@ -7,8 +7,8 @@ import styles from "./Career.module.css";
 
 const career = (props) => {
     return (
-        <div>
-            {/* <Interests/> */}
+        <div id={styles.career}>
+            <Interests/>
             <Experience/>
         </div>
     )
