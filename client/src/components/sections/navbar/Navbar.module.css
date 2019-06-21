@@ -1,0 +1,11 @@
+#navbar {
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+#navbar img {
+    height: 36px;
+}

@@ -3,6 +3,7 @@ import React from 'react';
 
 import Header from './components/common/header/Header'
 
+import Navbar from './components/sections/navbar/Navbar'
 import Banner from './components/sections/banner/Banner'
 import About from './components/sections/about/About'
 import LatestProjects from './components/sections/latestProjects/LatestProjects'
@@ -22,7 +23,12 @@ function App() {
     <div className="App">
 
       {/* --------------- BANNER --------------- */}
-      <section>
+      <div id="home-navbar">
+        <Navbar/>
+      </div>
+
+      {/* --------------- BANNER --------------- */}
+      <section id="banner">
         <Banner/>
       </section>
 

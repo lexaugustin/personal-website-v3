@@ -1,0 +1,9 @@
+#navSections {
+    padding: 0;
+}
+
+#navSections li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 32px;
+}
