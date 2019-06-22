@@ -20,4 +20,8 @@
     #navSections li {
         margin: 8% 0;
     }
+
+    #navSections #resumeButton {
+        margin-top: 28%;
+    }
 }

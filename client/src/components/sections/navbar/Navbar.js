@@ -9,7 +9,7 @@ export default class Navbar extends Component {
 
     state = {
         scrolled: false,
-        navMobile: 'navOpen',
+        navMobile: 'navClose',
         navMobileIcon: 'fas fa-equals'
     }
     

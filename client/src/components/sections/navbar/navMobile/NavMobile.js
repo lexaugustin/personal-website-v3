@@ -7,6 +7,7 @@ import styles from './NavMobile.module.css';
 const navMobile = (props) => {
     return (
         <div id={styles[props.navMobileClass]}>
+            
             <div 
                 id={styles.toggleButton}
                 onClick={props.buttonClick}
