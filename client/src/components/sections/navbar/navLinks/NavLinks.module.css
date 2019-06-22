@@ -1,0 +1,23 @@
+#navSections {
+    padding: 0;
+    margin: 8px auto;
+}
+
+#navSections li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 32px;
+}
+
+@media (max-width: 959px) {
+    #navSections {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        justify-content: center; */
+    }
+
+    #navSections li {
+        margin: 8% 0;
+    }
+}

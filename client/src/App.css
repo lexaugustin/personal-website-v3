@@ -8,7 +8,11 @@ section #main{
 }
 
 #home-navbar {
+  width: 100%;
+  position: fixed;
   background-color: rgb(139, 139, 139);
+  z-index: 99;
+
 }
 
 #banner {
@@ -35,4 +39,11 @@ section #main{
   /* background-color: #24292E; */
   background-color: rgba(33,37,48,1);
   color: #FFFFFF;
+}
+
+
+@media (max-width: 959px) {
+  #home-navbar {
+      /* background-color: #FFFFFF; */
+  }
 }

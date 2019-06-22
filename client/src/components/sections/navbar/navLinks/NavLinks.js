@@ -2,7 +2,7 @@ import React from 'react';
 
 import Button from '../../../common/button/Button'
 
-import styles from './NavSections.module.css';
+import styles from './NavLinks.module.css';
 
 const navSections = () => {
     return (
@@ -11,7 +11,9 @@ const navSections = () => {
             <li>Projects</li>
             <li>Career</li>
             <li>Contact</li>
-            <Button>Yo</Button>
+            <span id={styles.resumeButton}>
+                <Button>Yo</Button>
+            </span>
         </ul>
     )
 } 

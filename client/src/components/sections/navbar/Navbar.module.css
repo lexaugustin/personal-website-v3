@@ -9,3 +9,17 @@
 #navbar img {
     height: 36px;
 }
+
+@media (min-width: 960px) {
+    #navMobile {
+        display: none;
+    }
+}
+
+@media (max-width: 959px) {
+    #navbar {
+        display: none;
+    }
+}
+
+
