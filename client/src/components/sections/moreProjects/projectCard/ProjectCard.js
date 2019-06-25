@@ -22,8 +22,8 @@ const projectCard = (props) => {
             </ul>
 
             <div className={styles.links}>
-                <i class="fas fa-external-link-alt"></i>
-                <i class="fab fa-github"></i>
+                <i className="fas fa-external-link-alt"></i>
+                <i className="fab fa-github"></i>
             </div>
 
         </div>

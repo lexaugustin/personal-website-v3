@@ -31,8 +31,6 @@ export default class Navbar extends Component {
     }
 
     render() {
-   
-        // console.log(window.innerWidth);
 
         return (
             <div>

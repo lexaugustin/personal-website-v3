@@ -14,9 +14,9 @@ const experience = (props) => {
             <div className={styles.description}>
                 <h2>{props.company}</h2>
                 <p className={styles.position}>{props.position}</p>
-                <p className={styles.date}s>{props.date}</p>
+                <p className={styles.date}>{props.date}</p>
                 <p className={styles.location} >{props.location}</p>
-                <p className={styles.children} >{props.children}</p>
+                <div className={styles.children} >{props.children}</div>
             </div>
 
         </div>

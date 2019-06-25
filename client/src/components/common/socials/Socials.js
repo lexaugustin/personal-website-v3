@@ -32,12 +32,11 @@ const socials = (props) => {
     return (
         <ul className={styles.icons}>
             { socialIcons.map(social => (
-                <li>
+                <li key={social.name}>
                     <Social
                         name={social.name}
                         icon={social.icon}
-                        link={Social.link}
-                        key={social.name}                    
+                        link={Social.link}                 
                     />
                 </li>
             ))}

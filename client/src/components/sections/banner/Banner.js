@@ -9,7 +9,6 @@ const banner = () => {
 
     return (
         <div id={styles.banner}>
-            {/* <div className={styles['header-bg']}></div> */}
 
             <div id={styles['banner-content']}>
 
@@ -19,12 +18,13 @@ const banner = () => {
     
 
                 <div id={styles['text-side']}>
-                    <p>Computer Engineering <span>Student</span></p>
+                    <h2>Computer Engineering<span>Student</span></h2>
                     <div id={styles.bar}></div>
                     <p>With Interests in Web Development, Mobile Development, UI/UX Design and Machine Learning.</p>
                 </div>
  
             </div>
+
         </div>
     )
 }

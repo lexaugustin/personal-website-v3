@@ -26,15 +26,15 @@ const about = () => {
                     <div className={styles.skill}>
                         <p>Some of the technologies that I've been working with include:</p>
                         <ul className={styles.skills}>
-                            <li><i class="fab fa-js-square"></i>JavaScript (ES5+)</li>
-                            <li><i class="fab fa-react"></i>React (JS/Native)</li>
-                            <li><i class="fab fa-html5"></i>HTML5</li>
-                            <li><i class="fab fa-css3-alt"></i>CSS and SCSS</li>
-                            <li><i class="far fa-file-code"></i>Swift</li>
-                            <li><i class="fab fa-node-js"></i>NodeJS</li>
-                            <li><i class="far fa-file-code"></i>Express.js</li>
-                            <li><i class="fas fa-database"></i>MongoDB</li>
-                            <li><i class="far fa-file-code"></i>GraphQL</li>
+                            <li><i className="fab fa-js-square"></i>JavaScript (ES5+)</li>
+                            <li><i className="fab fa-react"></i>React (JS/Native)</li>
+                            <li><i className="fab fa-html5"></i>HTML5</li>
+                            <li><i className="fab fa-css3-alt"></i>CSS and SCSS</li>
+                            <li><i className="far fa-file-code"></i>Swift</li>
+                            <li><i className="fab fa-node-js"></i>NodeJS</li>
+                            <li><i className="far fa-file-code"></i>Express.js</li>
+                            <li><i className="fas fa-database"></i>MongoDB</li>
+                            <li><i className="far fa-file-code"></i>GraphQL</li>
                             {/* <li>React Js li ye tonton</li> */}
                         </ul>
                     </div>

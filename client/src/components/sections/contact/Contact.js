@@ -12,7 +12,7 @@ class Contact extends Component {
 
                 <form>
                     <div className={styles['form-group']}>
-                        <label for="name">Name</label>
+                        <label>Name</label>
                         <input type="text"/>
                     </div>
 
@@ -22,12 +22,12 @@ class Contact extends Component {
                     </div>
 
                     <div className={styles['form-group']}>
-                        <label for="subject">Subject</label>
+                        <label>Subject</label>
                         <input type="text"/>
                     </div>
 
                     <div className={styles['form-group']}>
-                        <label for="message">Message</label>
+                        <label>Message</label>
                         <textarea/>
                     </div>
 

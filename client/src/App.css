@@ -1,4 +1,4 @@
-section {
+section:not(#banner) {
   padding: 100px 0;
 }
 
@@ -12,11 +12,10 @@ section #main{
   position: fixed;
   background-color: rgb(139, 139, 139);
   z-index: 99;
-
 }
 
 #banner {
-  background-color: rgb(236, 236, 236);
+  /* background-color: rgb(236, 236, 236); */
 }
 
 #about {

@@ -27,8 +27,8 @@ const latestProjects = (props) => {
                 </div>
 
                 <div className={styles.links}>
-                    <p>See More<i class="fas fa-long-arrow-alt-right"></i></p>
-                    <p className={styles.igithub}>See Project on Github<i class="fab fa-github-alt"></i></p>
+                    <p>See More<i className="fas fa-long-arrow-alt-right"></i></p>
+                    <p className={styles.igithub}>See Project on Github<i className="fab fa-github-alt"></i></p>
                 </div>
             </div>
 
