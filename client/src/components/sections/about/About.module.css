@@ -12,6 +12,10 @@
     max-width: 450px;
 }
 
+.details > div {
+    margin: 32px 0;
+}
+
 .skill {
     text-align: left;
 }

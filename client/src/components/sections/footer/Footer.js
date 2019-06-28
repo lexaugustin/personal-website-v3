@@ -26,7 +26,6 @@ const footer = () => {
                     </ul>
                 </div>
                 
-  
                 <div id={styles.academic}>
                     <p>Webmaster for the <a href="http://ufsec.com/">Software Engineering Club</a></p>
                     <p>Computer Engineering</p>

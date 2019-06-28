@@ -1,0 +1,21 @@
+#subsectionButtons {
+    text-align: center;
+    margin: 32px auto 64px;
+}
+
+#subsectionButtons button {
+    width: 250px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    /* background-color: rgb(245, 245, 255); */
+    border: none;
+    outline: none;
+
+    border: 1px solid red;
+}
+
+#subsectionButtons button:focus {
+    border-bottom: 3px solid #000000;
+}

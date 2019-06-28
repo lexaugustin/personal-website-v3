@@ -4,14 +4,10 @@
     align-items: center;
 }
 
-/* .icon img {
-    height: 40vw;
-    max-height: 250px;
-} */
-
 .icon div {
     height: 260px;
     width: 180px;
+    /* margin-bottom: 16px; */
     display: flex;
     border: 1px solid rgb(98, 98, 112, 0.4);
     border-radius: 16px;
@@ -25,8 +21,25 @@
     max-width: 120px;
 }
 
-#experience h4 {
-    font-size: 20px;
+.description {
+    margin-top: 16px;
+}
+
+#experience h2 {
+    margin: 0;
+    font-weight: 500;
+}
+
+#experience p {
+    margin: 0;
+}
+
+.position {
+    font-weight: 400;
+}
+
+.achievement {
+    margin-top: 24px;
 }
 
 @media screen and (min-width: 960px) {
@@ -53,14 +66,8 @@
     #experience {   
         width: 100%;
         flex-direction: column;
-        margin: 0 auto;
-        text-align: center;
+        /* text-align: center; */
     }
-
-    #experience .icon, #experience .description {
-        margin: 0 5%;
-    }
-
 }
 
 

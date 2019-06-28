@@ -4,11 +4,22 @@
     align-items: center;
 }
 
+.experiences > * {
+    margin-bottom: 32px;
+}
+
 .experiences ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .exp2 .experience {
     flex-direction: row-reverse;
+}
+
+@media (max-width: 959px){
+    .experiences > * {
+        margin-bottom: 80px;
+    }
 }

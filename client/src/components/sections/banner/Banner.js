@@ -18,7 +18,7 @@ const banner = () => {
     
 
                 <div id={styles['text-side']}>
-                    <h2>Computer Engineering<span>Student</span></h2>
+                    <h2>Computer Engineering<span> Student</span></h2>
                     <div id={styles.bar}></div>
                     <p>With Interests in Web Development, Mobile Development, UI/UX Design and Machine Learning.</p>
                 </div>

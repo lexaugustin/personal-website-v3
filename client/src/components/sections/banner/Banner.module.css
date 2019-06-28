@@ -47,7 +47,7 @@ Text Side
 #text-side h2 {
     font-weight: 600;
     color: #2C50C7;
-    margin: 0;
+    /* margin: 0; */
 }
 
 #text-side h2 span {
@@ -83,3 +83,31 @@ Media Querries
         margin: 0 auto 48px auto;
     }
 }
+
+@media (max-width: 959px) {
+    #banner-content {
+        position: absolute;
+        bottom: -10vh;
+        left: 0;
+        right: 0;
+    }
+}
+
+
+/* @media (max-width: 609px) {
+    #banner-content {
+        position: absolute;
+        bottom: -12.5vw;
+        left: 0;
+        right: 0;
+    }
+}
+
+@media (min-width: 610px) and (max-width: 3320px) {
+    #banner-content {
+        position: absolute;
+        bottom: calc(-14vw + 22%);
+        left: 0;
+        right: 0;
+    }
+} */

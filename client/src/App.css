@@ -1,5 +1,19 @@
-section:not(#banner) {
+section:not(#banner):not(#footer) {
   padding: 100px 0;
+  transform: skew(0deg, -6deg);
+}
+
+#header {
+  margin-bottom: 6vw;
+}
+
+#career #header {
+  margin-bottom: 0;
+}
+
+section #main,
+section #header {
+  transform: skew(0deg, 6deg);
 }
 
 section #main{
@@ -38,11 +52,11 @@ section #main{
   /* background-color: #24292E; */
   background-color: rgba(33,37,48,1);
   color: #FFFFFF;
+  padding: 100px 0;
 }
 
-
-@media (max-width: 959px) {
-  #home-navbar {
-      /* background-color: #FFFFFF; */
+@media (max-width: 1199px) {
+  #header {
+    margin-bottom: 8vw;
   }
 }

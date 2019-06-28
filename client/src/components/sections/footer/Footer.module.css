@@ -11,6 +11,10 @@ TOP
     margin: 0 auto;
 }
 
+#menu li {
+    margin: 8px 0;
+}
+
 #academic {
     grid-area: academic;
 }
@@ -35,8 +39,13 @@ TOP
     padding: 0;
 }
 
-#top #academic {
+#academic {
     text-align: right;
+}
+
+#academic a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 /* ====================================
@@ -61,8 +70,13 @@ BOTTOM
     justify-content: space-between;
 }
 
+#bottom p {
+    margin-bottom: 0;
+}
+
 #bottom i {
     color: red;
+    margin: 0 6px;
     animation: heartbeat 1s infinite;
 }
 

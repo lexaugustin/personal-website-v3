@@ -9,8 +9,9 @@
     max-height: 250px;
 }
 
-#interest h4 {
-    font-size: 20px;
+#interest h3,
+.skills {
+    margin: 0;
 }
 
 @media screen and (min-width: 960px) {
@@ -41,8 +42,12 @@
         text-align: center;
     }
 
+    #interest .icon {
+        margin-bottom: 16px;
+    }
+
     #interest .icon, #interest .description {
-        margin: 0 5%;
+        /* margin: 0 5%; */
     }
 
 }

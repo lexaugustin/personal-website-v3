@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
 
-      {/* --------------- BANNER --------------- */}
+      {/* --------------- NAVBAR --------------- */}
       <div id="home-navbar">
         <Navbar/>
       </div>
@@ -32,25 +32,35 @@ function App() {
         <Banner/>
       </section>
 
+
+
       {/* ---------------- ABOUT ---------------- */}
       <section id='about'>
-        <Header
-          icon = {aboutIcon} 
-          title = "About" 
-          subtitle = "A little bit about myself, including my interests and favorite things to do" 
-        />
+
+        <div id="header">
+          <Header
+            icon = {aboutIcon} 
+            title = "About" 
+            subtitle = "A little bit about myself, including my interests and favorite things to do" 
+          />
+        </div>
+
         <div id='main'>
           <About/>
         </div>
+
       </section>
 
       {/* ----------- LATEST PROJECTS ----------- */}
       <section id='latest-projects'>
-        <Header
-          icon = {latestProjectsIcon} 
-          title = "Latest Projects" 
-          subtitle = "Some of the projects that I have been working on lately ouside of classes" 
-        />
+        <div id="header">
+          <Header
+            icon = {latestProjectsIcon} 
+            title = "Latest Projects" 
+            subtitle = "Some of the projects that I have been working on lately ouside of classes" 
+          />
+        </div>
+
         <div id='main'>
           <LatestProjects/>
         </div>
@@ -58,11 +68,14 @@ function App() {
 
       {/* ------------ MORE PROJECTS ------------ */}
       <section id='more-projects'>
-        <Header
-          icon = {contactIcon} 
-          title = "More Notable Projects" 
-          subtitle = "Some of the most notable projects that I have worked on" 
-        />
+        <div id="header">
+          <Header
+            icon = {contactIcon} 
+            title = "More Notable Projects" 
+            subtitle = "Some of the most notable projects that I have worked on" 
+          />
+        </div>
+
         <div id='main'>
           <MoreProjects/>
         </div>
@@ -70,11 +83,14 @@ function App() {
 
       {/* -------------- EXPERIENCE -------------- */}
       <section id='career'>
-        <Header
-          icon = {contactIcon} 
-          title = "Interests & Experience" 
-          subtitle = "My areas of interests and acquired skills" 
-        />
+        <div id="header">
+          <Header
+            icon = {contactIcon} 
+            title = "Interests & Experience" 
+            subtitle = "My areas of interests and acquired skills" 
+          />
+        </div>
+
         <div id='main'>
           <Career/>
         </div>
@@ -82,17 +98,21 @@ function App() {
 
       {/* --------------- CONTACT--------------- */}
       <section id='contact'>
-        <Header
-          icon = {contactIcon} 
-          title = "Contact" 
-          subtitle = "I can be contacted anytime via this form" 
-        />
+        <div id="header">
+          <Header
+            icon = {contactIcon} 
+            title = "Contact" 
+            subtitle = "I can be contacted anytime via this form" 
+          />
+        </div>
+
         <div id='main'>
           <Contact/>
         </div>
       </section>
 
       {/* --------------- FOOTER --------------- */}
+
       <section id='footer'>
         <Footer/>
       </section>

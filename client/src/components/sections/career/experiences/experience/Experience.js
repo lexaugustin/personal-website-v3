@@ -7,8 +7,7 @@ const experience = (props) => {
         <div id={styles.experience}>
 
             <div className={styles.icon}>
-                <div><img src={props.logo}/></div>
-                               
+                <div><img src={props.logo}/></div>                   
             </div>
 
             <div className={styles.description}>
@@ -16,7 +15,7 @@ const experience = (props) => {
                 <p className={styles.position}>{props.position}</p>
                 <p className={styles.date}>{props.date}</p>
                 <p className={styles.location} >{props.location}</p>
-                <div className={styles.children} >{props.children}</div>
+                <div className={styles.achievement} >{props.children}</div>
             </div>
 
         </div>

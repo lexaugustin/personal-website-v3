@@ -12,6 +12,7 @@ import styles from './About.module.css'
 const about = () => {
     return (
         <div className={styles.content}>
+
             <div className={styles.details}>
                 <div className={styles.bio}>
                     <p>
@@ -22,36 +23,37 @@ const about = () => {
                         play video games, or I often use those times to acquire more knowledge in 
                         hardware design and software development.
                     </p>
-
-                    <div className={styles.skill}>
-                        <p>Some of the technologies that I've been working with include:</p>
-                        <ul className={styles.skills}>
-                            <li><i className="fab fa-js-square"></i>JavaScript (ES5+)</li>
-                            <li><i className="fab fa-react"></i>React (JS/Native)</li>
-                            <li><i className="fab fa-html5"></i>HTML5</li>
-                            <li><i className="fab fa-css3-alt"></i>CSS and SCSS</li>
-                            <li><i className="far fa-file-code"></i>Swift</li>
-                            <li><i className="fab fa-node-js"></i>NodeJS</li>
-                            <li><i className="far fa-file-code"></i>Express.js</li>
-                            <li><i className="fas fa-database"></i>MongoDB</li>
-                            <li><i className="far fa-file-code"></i>GraphQL</li>
-                            {/* <li>React Js li ye tonton</li> */}
-                        </ul>
-                    </div>
-                    
                 </div>
 
-                <div><Socials/></div>
+                <div className={styles.skill}>
+                    <p>Some of the technologies that I've been working with include:</p>
+                    <ul className={styles.skills}>
+                        <li><i className="fab fa-js-square"></i>JavaScript (ES5+)</li>
+                        <li><i className="fab fa-react"></i>React (JS/Native)</li>
+                        <li><i className="fab fa-html5"></i>HTML5</li>
+                        <li><i className="fab fa-css3-alt"></i>CSS and SCSS</li>
+                        <li><i className="far fa-file-code"></i>Swift</li>
+                        <li><i className="fab fa-node-js"></i>NodeJS</li>
+                        <li><i className="far fa-file-code"></i>Express.js</li>
+                        <li><i className="fas fa-database"></i>MongoDB</li>
+                        <li><i className="far fa-file-code"></i>GraphQL</li>
+                        {/* <li>React Js li ye tonton</li> */}
+                    </ul>
+                </div>
 
-                <ul className={styles.buttons}>
-                    <li><Button>Resume</Button></li>
-                    <li><Button>Contact</Button></li>
-                </ul>
+                <div>
+                    <Socials/>
+                    <ul className={styles.buttons}>
+                        <li><Button>Resume</Button></li>
+                        <li><Button>Contact</Button></li>
+                    </ul>
+                </div>
             </div>
 
             <div className={styles.portrait}>
                 <img src={portrait} alt="Alexander's Portrait"/>
             </div>
+            
         </div>
 
     )
