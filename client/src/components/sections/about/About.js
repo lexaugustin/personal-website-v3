@@ -41,13 +41,13 @@ const about = () => {
                     </ul>
                 </div>
 
-                <div>
+                {/* <div id={styles.socialIcons}> */}
                     <Socials/>
                     {/* <ul className={styles.buttons}>
                         <li><Button>Resume</Button></li>
                         <li><Button>Contact</Button></li>
                     </ul> */}
-                </div>
+                {/* </div> */}
             </div>
 
             <div className={styles.portrait}>

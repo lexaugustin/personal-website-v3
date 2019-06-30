@@ -13,7 +13,7 @@ const footer = () => {
                 <div id={styles.contact}>
                     <img id={styles.logo} src="https://lexaugustin.github.io/img/logo/logo-white.svg"/>
                     <p>lexaugustin@gmail.com</p>
-                    <Socials/>
+                    <div id={styles.socialIcons}><Socials/></div>
                 </div>
 
                 <div id={styles.menu}>

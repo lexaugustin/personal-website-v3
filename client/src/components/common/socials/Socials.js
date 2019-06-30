@@ -25,14 +25,14 @@ const socialIcons = [
         name:'twitter', 
         icon: 'fab fa-twitter', 
         link:'https://twitter.com/lexaugustin'
-    }
+    },
 ]
 
 const socials = (props) => {
     return (
         <ul className={styles.icons}>
             { socialIcons.map(social => (
-                <li key={social.name}>
+                <li key={social.name} id={social.name}>
                     <Social
                         name={social.name}
                         icon={social.icon}

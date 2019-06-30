@@ -6,6 +6,12 @@ TOP
     grid-area: contact;
 }
 
+#contact #socialIcons a {
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+}
+
 #menu {
     grid-area: menu;
     margin: 0 auto;
@@ -38,6 +44,7 @@ TOP
     max-width: 1200px;
     margin: 0 auto;
 }
+
 
 #top img {
     height: 30px;
