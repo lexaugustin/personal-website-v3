@@ -9,6 +9,13 @@
     margin-right: 32px;
 }
 
+#resumeButton Button {
+    width: 124px;
+    color: #FFFFFF;
+    background-color: #FD6F21;
+    border: 2px solid #FD6F21;
+}
+
 @media (max-width: 959px) {
     #navSections {
         display: flex;

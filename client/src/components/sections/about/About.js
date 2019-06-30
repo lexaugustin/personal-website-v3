@@ -43,10 +43,10 @@ const about = () => {
 
                 <div>
                     <Socials/>
-                    <ul className={styles.buttons}>
+                    {/* <ul className={styles.buttons}>
                         <li><Button>Resume</Button></li>
                         <li><Button>Contact</Button></li>
-                    </ul>
+                    </ul> */}
                 </div>
             </div>
 

@@ -9,9 +9,9 @@ class MoreProjects extends Component {
         return (
             <div className={styles.content}>
                 <ul className={styles.cards}>
-                    <li><ProjectCard/></li>
-                    <li><ProjectCard/></li>
-                    <li><ProjectCard/></li>
+                    <li className={styles.project}><ProjectCard/></li>
+                    <li className={styles.project}><ProjectCard/></li>
+                    <li className={styles.project}><ProjectCard/></li>
                 </ul>
             </div>
         )

@@ -5,8 +5,9 @@ import styles from './ProjectCard.module.css'
 const projectCard = (props) => {
     return (
         <div className={styles.card}>
-
-            <img src='http://localhost:3001/img/projects/trivia-fun/icon2.png'/>
+            <div className={styles.icon}>
+                <img src='https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png'/>
+            </div>
             <h3 className={styles.name}>Night Owls</h3>
             <p className={styles.title}>Desktop Web Application to find study spots on campus</p>
             <p className={styles.description}>

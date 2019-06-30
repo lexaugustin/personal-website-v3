@@ -9,6 +9,7 @@ export default class Navbar extends Component {
 
     state = {
         scrolled: false,
+        navClassName: 'navTop',
         navMobile: 'navClose',
         navMobileIcon: 'fas fa-equals'
     }
@@ -30,12 +31,24 @@ export default class Navbar extends Component {
         }
     }
 
+    // -------- Navbar Scrolling --------
+    componentDidMount() {
+        window.addEventListener('scroll', () => {
+            const isTop = window.scrollY < 100;
+            if (isTop !== true){
+                this.setState({scrolled: true, navClassName: 'navScrolling', });
+            } else {
+                this.setState({scrolled: false, navClassName: 'navTop'});
+            }
+        });
+    }
+
     render() {
 
         return (
             <div>
 
-                <div id={styles.navbar}>
+                <div id={styles.navbar} className={styles[this.state.navClassName]}>
                     <img src="https://lexaugustin.github.io/img/logo/logo-bleu.svg"/>
                     <div><NavSections/></div>
                 </div>

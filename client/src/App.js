@@ -114,7 +114,9 @@ function App() {
       {/* --------------- FOOTER --------------- */}
 
       <section id='footer'>
-        <Footer/>
+        <div id='main'>
+          <Footer/>
+        </div>
       </section>
 
     </div>

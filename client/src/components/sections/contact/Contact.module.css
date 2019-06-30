@@ -48,3 +48,13 @@ form {
     background-color: white;
     padding: 0 10px;
 }
+
+#content button {
+    height: 40px;
+    width: 180px;
+    color: #1822DC;
+    background-color: rgb(218, 220, 255);
+    border: 1px solid rgb(218, 220, 255);
+    /* background-color: #1822DC; */
+
+}

@@ -12,7 +12,7 @@ const navSections = () => {
             <li>Career</li>
             <li>Contact</li>
             <span id={styles.resumeButton}>
-                <Button>Yo</Button>
+                <Button>Resume</Button>
             </span>
         </ul>
     )
