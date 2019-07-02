@@ -10,6 +10,7 @@ const footer = () => {
             
             {/* ============= T O P ============= */}
             <div id={styles.top}>
+                
                 <div id={styles.contact}>
                     <img id={styles.logo} src="https://lexaugustin.github.io/img/logo/logo-white.svg"/>
                     <p>lexaugustin@gmail.com</p>

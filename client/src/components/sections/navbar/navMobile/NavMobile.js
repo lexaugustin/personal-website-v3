@@ -24,12 +24,3 @@ const navMobile = (props) => {
 } 
 
 export default navMobile;
-
-
-
-
-
-
-
-
-            {/* <div id={styles[this.state.myClass]} onClick={this.largeClickHandler}><i class="fas fa-equals"></i></div> */}

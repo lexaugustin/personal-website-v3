@@ -94,10 +94,8 @@
     
 }
 
-/* @media (max-width: 409px) {
-
-    .buttons li:first-of-type{
-        margin-bottom: 16px;
+@media (max-width: 371px) {
+    .skill {
+        text-align: center;
     }
-    
-} */
+}
