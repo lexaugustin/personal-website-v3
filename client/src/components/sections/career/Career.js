@@ -8,7 +8,7 @@ import styles from "./Career.module.css";
 class Career extends Component {
 
     state = {
-        subsection: 1
+        subsection: 2
     }
 
     displayInterests = () => {

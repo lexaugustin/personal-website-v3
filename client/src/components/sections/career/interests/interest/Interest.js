@@ -7,19 +7,13 @@ const interest = (props) => {
         <div id={styles.interest}>
 
             <div className={styles.icon}>
-                <img src="https://lexaugustin.github.io/img/icons/software-engineering.svg"/>
+                <img src={props.icon}/>
             </div>
 
             <div className={styles.description}>
-                <h3>Software Development</h3>
-                <p>I have a lot of interests in anything software related, 
-                    especially web and mobile development.
-                </p>
-                <p className={styles.skills}>
-                    Java, JavaScript/jQuery, Swift, C, C++, HTML/CSS, Bootstrap, 
-                    Express.js, NodeJS, ReactJS, AngularJS, MongoDB, MySQL, 
-                    Agile Development, Git and RESTful service
-                </p>
+                <h3>{props.title}</h3>
+                <p>{props.description}</p>
+                <p className={styles.skills}>{props.skills}</p>
             </div>
 
         </div>
