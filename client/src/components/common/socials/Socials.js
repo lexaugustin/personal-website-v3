@@ -9,7 +9,7 @@ const socialIcons = [
     {
         name:'linkedin', 
         icon: 'fab fa-linkedin-in', 
-        link:'https://www.linkedin.com/in/alexander-augustin-39289b177/'
+        link:'https://www.linkedin.com/in/lexaugustin/'
     },
     {
         name:'github', 
@@ -36,7 +36,7 @@ const socials = (props) => {
                     <Social
                         name={social.name}
                         icon={social.icon}
-                        link={Social.link}                 
+                        link={social.link}                 
                     />
                 </li>
             ))}

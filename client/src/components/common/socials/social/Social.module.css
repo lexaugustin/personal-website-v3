@@ -7,11 +7,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;    
 }
 
 .icon i {
     font-size: 18px;
 }
-
-
-
