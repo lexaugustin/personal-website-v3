@@ -1,123 +1,19 @@
-#experience {
-    max-width: 1200px;
-    display: flex;
-    align-items: center;
-}
-
-.icon div {
-    height: 260px;
-    width: 180px;
-    /* margin-bottom: 16px; */
-    display: flex;
-    border: 1px solid rgb(98, 98, 112, 0.4);
-    border-radius: 16px;
-    box-sizing: border-box;
-    box-shadow: -1px 1px 10px rgb(223, 223, 223, 1);
-}
-
-.icon div img {
-    align-self: center;
-    margin: 0 auto;
-    max-width: 120px;
-}
-
-.description {
-    margin-top: 16px;
-}
+/* #experience {
+    margin: 32px 0;
+} */
 
 #experience h2 {
+    font-size: 20px;
     margin: 0;
-    font-weight: 500;
 }
 
 #experience p {
     margin: 0;
+    line-height: 1.2;
 }
 
-.position {
-    font-weight: 400;
-}
-
-.achievement {
-    margin-top: 24px;
-}
-
-@media screen and (min-width: 960px) {
-    #experience:nth-child(even){
-        flex-direction: row-reverse;
-        text-align: right;
-    }
-
-    #experience .icon, #experience .description {
-        width: 50%;
-        margin: 0 70px;
-    }
-
-    #experience:nth-of-type(odd) .icon div {
-        float: right;
-    }
-    
-    #experience:nth-of-type(even) .icon div {
-        float: left;
+@media (max-width: 1176px) {
+    #experience h2 {
+        /* text-align: center; */
     }
 }
-
-@media screen and (max-width: 959px) {
-    #experience {   
-        width: 100%;
-        flex-direction: column;
-        text-align: center;
-    }
-}
-
-
-
-/* #experience {
-    max-width: 1200px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-#experience:nth-child(even) {
-    flex-direction: row-reverse;
-}
-
-
-.logo {
-    height: 300px;
-    width: 180px;
-    margin-right: 32px;
-    display: flex;
-    border: 1px solid rgb(98, 98, 112, 0.4);
-    border-radius: 16px;
-    box-sizing: border-box;
-    box-shadow: -1px 1px 10px rgb(223, 223, 223, 1);
-}
-
-.description {
-    max-width: 560px;
-}
-
-.logo img {
-    align-self: center;
-    margin: 0 auto;
-    max-width: 120px;
-}
-
-.position,
-.date,
-.location {
-    margin: 0;
-}
-
-.description h2 {
-    margin: 0 0 8px;
-}
-
-@media (max-width: 690px) {
-    .logo {
-        margin-right: 0;
-    }
-} */

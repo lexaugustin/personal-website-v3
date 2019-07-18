@@ -20,9 +20,9 @@ const navSections = () => {
 
 
 
-            <li><NavLink smooth to="../App/App#projects" activeClassName="selected">Projects</NavLink></li>
-            <li><NavLink smooth to="../App/App#career" activeClassName="selected">Career</NavLink></li>
-            <li><NavLink smooth to="../App/App#contact" activeClassName="selected">Contact</NavLink></li>
+            <li><NavLink smooth to="../App/App#projects" exact activeClassName="selected">Projects</NavLink></li>
+            <li><NavLink smooth to="../App/App#career" exact activeClassName="selected">Career</NavLink></li>
+            <li><NavLink smooth to="../App/App#contact" exact activeClassName="selected">Contact</NavLink></li>
             
             <span id={styles.resumeButton}>
                 <a href="https://www.dropbox.com/s/t7bmk5f2jplqc9k/alexander_augustin_resume.pdf?dl=0" target="_blank">

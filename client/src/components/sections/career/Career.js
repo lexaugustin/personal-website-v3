@@ -1,52 +1,26 @@
-import React, {Component} from 'react'
+import React from 'react'
+
+import Header from '../../common/header/Header';
 
 import Interests from './interests/Interests'
 import Experience from './experiences/Experiences'
 
 import styles from "./Career.module.css";
 
-class Career extends Component {
+const career = () =>{
 
-    state = {
-        subsection: 2
-    }
+    return (
+        <div id={styles.career}>
 
-    displayInterests = () => {
-        this.setState({
-            subsection: 1
-        })
-    }
+            {/* -------------- INTERESTS -------------- */}
+            <div><Interests/></div>
 
-    displayExperiences = () => {
-        this.setState({
-            subsection: 2
-        })
-    }
+            {/* -------------- EXPERIENCE -------------- */}
+            <div><Experience/></div>
+            
 
-    render(){
-
-        let toDisplay = <Interests/>
-
-        if (this.state.subsection == 1) {
-            toDisplay = <Interests/>
-        }
-        else {
-            toDisplay = <Experience/>
-        }
-
-        return (
-            <div id={styles.career}>
-    
-                <div id={styles.subsectionButtons}>
-                    <button onClick={this.displayInterests}>Interests</button>
-                    <button onClick={this.displayExperiences}>Experiences</button>
-                </div>
-                
-                {toDisplay}
-
-            </div>
-        )
-    }
+        </div>
+    )
 }
 
-export default Career;
+export default career;

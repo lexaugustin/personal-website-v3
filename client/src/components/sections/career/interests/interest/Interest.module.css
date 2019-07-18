@@ -1,53 +1,18 @@
 #interest {
-    max-width: 1200px;
-    display: flex;
-    align-items: center;
+    margin-bottom: 16px;
 }
 
-#interest img {
-    height: 40vw;
-    max-height: 250px;
-}
-
-#interest h3,
-.skills {
+#interest h4 {
+    font-size: 16px;
     margin: 0;
 }
 
-@media screen and (min-width: 960px) {
-    #interest:nth-child(even){
-        flex-direction: row-reverse;
-        text-align: right;
-    }
-
-    #interest .icon, #interest .description {
-        width: 50%;
-        margin: 0 70px;
-    }
-
-    #interest:nth-of-type(odd) img {
-        float: right;
-    }
-    
-    #interest:nth-of-type(even) img {
-        float: left;
-    }
+#interest p {
+    margin: 0;
 }
 
-@media screen and (max-width: 959px) {
-    #interest {   
-        width: 100%;
-        flex-direction: column;
-        margin: 0 auto;
+@media (max-width: 1176px) {
+    #interest {
         text-align: center;
     }
-
-    #interest .icon {
-        margin-bottom: 16px;
-    }
-
-    #interest .icon, #interest .description {
-        /* margin: 0 5%; */
-    }
-
 }

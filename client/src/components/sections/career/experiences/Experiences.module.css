@@ -1,7 +1,68 @@
-.experiences {
+#content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.experiences {
+    width: 100%;
+    max-width: 400px;
+}
+
+.experiences ul {
+    padding: 0;
+    margin: 19px;
+}
+
+.icons {
+    width: 70%;
+    max-width: 500px;
+}
+
+.icons img {
+    width: 100%;
+    max-width: 500px;
+}
+
+@media (max-width: 1176px) {
+    .experiences {
+        margin-top: 32px;
+    }
+}
+
+@media (min-width: 960px) and (max-width: 1176px) {
+    .experiences {
+        width: 100%;
+        max-width: 500px;
+        margin-right: 5%;
+    }
+    
+    /* .icon {
+        width: 45%;
+        max-width: 450px;
+        margin-left: 5%;
+    } */
+}
+
+@media (max-width: 959px) {
+    .content {
+        /* flex-direction: column-reverse; */
+    }
+}
+
+
+/* #content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .experiences > * {
@@ -9,17 +70,41 @@
 }
 
 .experiences ul {
-    list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 19px;
 }
 
-.exp2 .experience {
-    flex-direction: row-reverse;
+.icon {
+    width: 70%;
+    max-width: 350px;
 }
 
-@media (max-width: 959px){
+.icon img {
+    width: 100%;
+    max-width: 350px;
+    margin: 16px auto;
+}
+
+@media (min-width: 960px) and (max-width: 1176px) {
+    .experiences {
+        width: 45%;
+        max-width: 450px;
+        margin-left: 5%;
+    }
+    
+    .icon {
+        width: 45%;
+        max-width: 450px;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 959px) {
+    .content {
+        flex-direction: column-reverse;
+    }
+
     .experiences > * {
         margin-bottom: 80px;
     }
-}
+} */
