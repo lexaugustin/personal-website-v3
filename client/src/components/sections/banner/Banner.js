@@ -1,7 +1,7 @@
 import React from 'react';
 
 import portrait from '../../../img/banner/all.png'
-
+import Button from '../../common/button/Button';
 
 import styles from './Banner.module.css'
 
@@ -18,11 +18,15 @@ const banner = () => {
     
 
                 <div id={styles['text-side']}>
-                    <h2>Computer Engineering<span> Student</span></h2>
-                    <div id={styles.bar}></div>
-                    <p>With Interests in Web Development, Mobile Development, UI/UX Design and Machine Learning.</p>
+                    <div id={styles['text-side-content']}>
+                        <h2>Computer Engineering Student<span> at The University of Florida</span></h2>
+                        <div id={styles.bar}></div>
+                        <p>With Interests in Web Development, Mobile Development, UI/UX Design and Machine Learning.</p>
+
+                        <div id={styles.contact__button}><Button>Contact</Button></div>
+                    </div>
                 </div>
- 
+
             </div>
 
         </div>

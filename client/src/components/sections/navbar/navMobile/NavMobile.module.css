@@ -38,6 +38,10 @@
     background-color: rgb(255, 255, 255);
 }
 
+#toggleButton i {
+    font-size: 20px;
+}
+
 
 @media (max-width: 959px) {
     #navClose #navLinks {
