@@ -25,7 +25,7 @@ class Experiences extends Component {
                 <div className={styles.experiences}>
                     <Subheader
                         icon="far fa-heart"
-                        title="Software development area of interest"
+                        title="Experience"
                     />
                     
                     <Experience

@@ -66,6 +66,7 @@ DIVIDER
 #footer hr {
     max-width: 1200px;
     margin-top: 48px;
+    opacity: 0.2;
 }
 
 

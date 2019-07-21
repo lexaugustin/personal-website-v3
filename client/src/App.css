@@ -24,7 +24,7 @@ section #main{
 }
 
 #about {
-  padding: 190px 0 100px 0;
+  padding: 190px 0 190px 0;
   transform: skew(0deg, -6deg);
 }
 
@@ -37,7 +37,7 @@ section #main{
   /* background-color: #24292E; */
   background-color: rgba(33,37,48,1);
   color: #FFFFFF;
-  padding: 100px 0;
+  padding: 100px 0 50px 0;
 }
 
 #footer #main {

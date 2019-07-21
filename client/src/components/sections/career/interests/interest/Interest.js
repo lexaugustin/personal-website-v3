@@ -7,7 +7,7 @@ const interest = (props) => {
         <div id={styles.interest}>
 
             <div className={styles.description}>
-                <h4>{props.title}</h4>
+                <p><i className={props.icon}></i>{props.title}</p>
                 <p>{props.description}</p>
                 {/* <p className={styles.skills}>{props.skills}</p> */}
             </div>

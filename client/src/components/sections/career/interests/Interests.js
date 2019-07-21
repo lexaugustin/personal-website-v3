@@ -25,11 +25,11 @@ const interests = (props) => {
 
                 <Subheader
                     icon="far fa-heart"
-                    title="Software development area of interest"
+                    title="Computer Science Area of Interest"
                 />
 
                 <Interest
-                    icon={devIcon}
+                    icon="fas fa-code"
                     title="Software Development"
                     description="I have a lot of interests in anything software related, 
                                 especially web and mobile development."
@@ -39,7 +39,7 @@ const interests = (props) => {
                 />
 
                 <Interest
-                    icon={uiIcon}
+                    icon="fab fa-quinscape"
                     title="UI/UX Design"
                     description="I am also interesed in UI/UX design as I like to put a 
                                 lot of work in the user interface of my projects to make 
@@ -48,7 +48,7 @@ const interests = (props) => {
                 />
 
                 <Interest
-                    icon={mlIcon}
+                    icon="fas fa-brain"
                     title="Machine Learning"
                     description="Machine learning is the last area of computer science that 
                                 has caught my attention after attending some workshops and 

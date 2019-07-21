@@ -12,8 +12,8 @@
 }
 
 #subheader p {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 28px;
+    color: #32325D;
 }
 
 @media (max-width: 1176px) {
