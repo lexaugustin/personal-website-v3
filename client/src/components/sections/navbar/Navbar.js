@@ -49,7 +49,7 @@ export default class Navbar extends Component {
             <div>
 
                 <div id={styles.navbar} className={styles[this.state.navClassName]}>
-                    <img src="https://lexaugustin.github.io/img/logo/logo-bleu.svg"/>
+                    <a href='\'><img src="https://lexaugustin.github.io/img/logo/logo-bleu.svg"/></a>
                     <div><NavSections/></div>
                 </div>
 

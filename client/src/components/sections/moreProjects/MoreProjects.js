@@ -1,19 +1,9 @@
 import React, {Component} from 'react';
 
 import ProjectCard from './projectCard/ProjectCard'
-
 import styles from './MoreProjects.module.css'
 
-
-const projects = [
-    <li className={styles.project}><ProjectCard/></li>,
-    <li className={styles.project}><ProjectCard/></li>,
-    <li className={styles.project}><ProjectCard/></li>,
-    <li className={styles.project}><ProjectCard/></li>,
-    <li className={styles.project}><ProjectCard/></li>       
-]
-
-
+import data from '../../../data/Data'
 
 class MoreProjects extends Component {
 
@@ -37,6 +27,17 @@ class MoreProjects extends Component {
 
     render(){
 
+        const projects = data.projects.map(project => {
+            return (
+                <li className={styles.project}>
+                    <ProjectCard
+                        name={project.name}
+                        title={project.title}
+                        description={project.description}
+                    />
+                </li> 
+            )
+        })
 
         let displayProjects = projects.slice(0,3);
 
@@ -61,6 +62,8 @@ class MoreProjects extends Component {
                 </div>
             )
         }
+
+        console.log(data)
 
         return (
             <div className={styles.content}>

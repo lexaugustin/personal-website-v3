@@ -8,14 +8,9 @@ const projectCard = (props) => {
             <div className={styles.icon}>
                 <img src='https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png'/>
             </div>
-            <h3 className={styles.name}>Night Owls</h3>
-            <p className={styles.title}>Desktop Web Application to find study spots on campus</p>
-            <p className={styles.description}>
-                Night Owls is web application that makes finding study spots easier on campus. 
-                The application allows students to see where the study spots are with real-time 
-                spots availability.
-            </p>
-            
+            <h3 className={styles.name}>{props.name}</h3>
+            <p className={styles.title}>{props.title}</p>
+            <p className={styles.description}>{props.description}</p>
             <ul className={styles.techs}>
                 <li>Java</li>
                 <li>MongoDB</li>
@@ -23,8 +18,8 @@ const projectCard = (props) => {
             </ul>
 
             <div className={styles.links}>
-                <i className="fas fa-external-link-alt"></i>
-                <i className="fab fa-github"></i>
+                <i className="fas fa-external-link-alt">{props.liveLink}</i>
+                <i className="fab fa-github">{props.gitLink}</i>
             </div>
 
         </div>
