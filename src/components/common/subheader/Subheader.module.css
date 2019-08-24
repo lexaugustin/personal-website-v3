@@ -1,0 +1,24 @@
+#subheader {
+    margin-bottom: 32px;
+}
+
+#subheader-icon i {
+    font-size: 24px;
+    color: rgb(255, 81, 0);
+    padding: 12px;
+    border: 3px solid rgb(221, 221, 221);
+    background-color:  rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+#subheader p {
+    font-size: 28px;
+    margin-top: 8px;
+    color: #32325D;
+}
+
+@media (max-width: 1176px) {
+    #subheader {
+        text-align: center;
+    }
+}
