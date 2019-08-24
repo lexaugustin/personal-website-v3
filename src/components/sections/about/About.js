@@ -52,7 +52,7 @@ const about = () => {
             </div>
 
             <div className={styles.portrait}>
-                <img src={portrait2} alt="Alexander's Portrait"/>
+                {/* <img src={portrait2} alt="Alexander's Portrait"/> */}
             </div>
             
         </div>
