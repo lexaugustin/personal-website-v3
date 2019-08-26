@@ -5,11 +5,11 @@ import secIcon from '../../../../img/career/experiences/sec.png';
 import exxonMobilIcon from '../../../../img/career/experiences/exxonMobil.png';
 import visaIcon from '../../../../img/career/experiences/visa.png';
 
-import experiencesIcon from '../../../../img/career/interests/interests.png';
+import experiencesIcon from '../../../../img/career/experiences/experiences.svg';
 
-import Header from '../../../common/header/Header';
+import experienceIcon from '../../../../img/career/experiences/icon.png';
 import Subheader from '../../../common/subheader/Subheader';
-import aboutIcon from '../../../../img/icons/person.svg'
+
 
 import styles from './Experiences.module.css'
 
@@ -58,7 +58,7 @@ class Experiences extends Component {
                     location="Foster City, California"
                     >
                     <ul>
-                        <li>Built GraphQL backend service that returns the exacted data required to the client</li>
+                        <li>Developed a GraphQL backend service that returns the exacted data required to the client</li>
                         <li>Implemented GraphQL querries on the front-end using Apollo, React, Redux and Redux-Saga to fetch data asynchronously</li>
                     </ul>
                     </Experience>
@@ -75,8 +75,8 @@ class Experiences extends Component {
                     location="Gainesville, Florida"
                     >
                     <ul>
-                        <li>Worked on the design process of an event web application</li>
-                        <li>interviewed clients, defined use personas, created user stories and generated ideas for design</li>
+                        <li>Worked on the design process of a web application for the company’s events</li>
+                        <li>Interviewed clients, defined user personas, created user stories and generated ideas for the design</li>
                         <li>Created wireframes and designed a prototype of the application using Sketch App</li>
                     </ul>
                     </Experience>
@@ -93,13 +93,8 @@ class Experiences extends Component {
                     location="University of Florida"
                     >
                     <ul>
-                        <li>Worked on the design process of an event web application</li>
-                        <li>interviewed clients, defined use personas, created user 
-                            stories and generated ideas for design
-                        </li>
-                        <li>Created wireframes and designed a prototype of the application 
-                            using Sketch App
-                        </li>
+                        <li>Designed and implemented a new website to facilitate the connections with members and sponsors</li>
+                        <li>Collaborate with the executive officers to plan activities and determine actions necessary for the growth of the club</li>
                     </ul>
                     </Experience>
                 )
@@ -134,7 +129,7 @@ class Experiences extends Component {
     
                 <div className={styles.experiences}>
                     <Subheader
-                        icon="far fa-heart"
+                        icon={experienceIcon}
                         title="Experience"
                     />
                     

@@ -7,7 +7,7 @@ const subheader = (props) => {
         <div id={styles.subheader}>
 
             <div id={styles['subheader-icon']}>
-                <i className={props.icon}></i>
+                <img src={props.icon}/>
             </div>
 
             <p className={styles.title}>{props.title}</p>

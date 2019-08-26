@@ -38,7 +38,6 @@ const about = () => {
                         <li><i className="far fa-file-code"></i>Express.js</li>
                         <li><i className="fas fa-database"></i>MongoDB</li>
                         <li><i className="far fa-file-code"></i>GraphQL</li>
-                        {/* <li>React Js li ye tonton</li> */}
                     </ul>
                 </div>
 
@@ -52,7 +51,7 @@ const about = () => {
             </div>
 
             <div className={styles.portrait}>
-                {/* <img src={portrait2} alt="Alexander's Portrait"/> */}
+                <img src={portrait} alt="Alexander's Portrait"/>
             </div>
             
         </div>

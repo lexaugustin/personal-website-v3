@@ -41,14 +41,14 @@
 .portrait {
     width: 100%;
     max-width: 550px;
-    position: relative;
+    /* position: relative; */
     bottom: 210px;
 }
 
 .portrait img {
     width: 100%;
     margin: 16px auto;
-    position: absolute;
+    /* position: absolute; */
 }
 
 /* .buttons {

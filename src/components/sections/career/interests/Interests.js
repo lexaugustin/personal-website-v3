@@ -1,15 +1,11 @@
 import React from 'react'
 
 import Interest from './interest/Interest'
-import devIcon from '../../../../img/career/interests/dev.svg';
-import uiIcon from '../../../../img/career/interests/ui.svg';
-import mlIcon from '../../../../img/career/interests/ml.svg';
 
-import Header from '../../../common/header/Header';
 import Subheader from '../../../common/subheader/Subheader';
-import aboutIcon from '../../../../img/icons/person.svg'
 
-import interestsIcon from '../../../../img/career/interests/interests.png';
+import interestsIcon from '../../../../img/career/interests/icon.png';
+import interestsIllustration from '../../../../img/career/interests/interests.png';
 
 import styles from "./Interests.module.css";
 
@@ -18,13 +14,13 @@ const interests = (props) => {
         <div id={styles.content}>
 
             <div className={styles.icons}>
-                <img src={interestsIcon}/>
+                <img src={interestsIllustration}/>
             </div>
 
             <div className={styles.interests}>
 
                 <Subheader
-                    icon="far fa-heart"
+                    icon={interestsIcon}
                     title="Computer Science Area of Interest"
                 />
 

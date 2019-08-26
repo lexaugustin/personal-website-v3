@@ -2,13 +2,19 @@
     margin-bottom: 32px;
 }
 
-#subheader-icon i {
-    font-size: 24px;
-    color: rgb(255, 81, 0);
-    padding: 12px;
-    border: 3px solid rgb(221, 221, 221);
-    background-color:  rgb(255, 255, 255);
+#subheader-icon {
+    width: 54px;
+    height: 54px;
+    border: 2px solid #2BB63F;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#subheader-icon img {
+    width: 32px;
+    height: 32px;
 }
 
 #subheader p {

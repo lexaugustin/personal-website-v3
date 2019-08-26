@@ -34,6 +34,8 @@ class MoreProjects extends Component {
                         name={project.name}
                         platform={project.platform}
                         description={project.description}
+                        liveLink={project.liveLink}
+                        gitLink={project.gitLink}
                     />
                 </li> 
             )

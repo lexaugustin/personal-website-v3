@@ -18,8 +18,14 @@ const projectCard = (props) => {
             </ul>
 
             <div className={styles.links}>
-                <i className="fas fa-external-link-alt">{props.liveLink}</i>
-                <i className="fab fa-github">{props.gitLink}</i>
+
+                <a href={props.liveLink} target="_blank">
+                    <i className="fas fa-external-link-alt"></i>
+                </a>
+
+                <a href={props.gitLink} target="_blank">
+                    <i className="fab fa-github"></i>
+                </a>
             </div>
 
         </div>

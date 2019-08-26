@@ -24,12 +24,18 @@ section #main{
 }
 
 #about {
-  padding: 190px 0 190px 0;
+  padding: 100px 0 100px 0;
+  transform: skew(0deg, -6deg);
+}
+
+#career {
   transform: skew(0deg, -6deg);
 }
 
 #about #main,
-#about #header {
+#about #header,
+#career #main,
+#career #header {
   transform: skew(0deg, 6deg);
 }
 
@@ -78,7 +84,7 @@ section #main{
 }
 
 #career{
-  /* background-color: #F6F8FA; */
+  background-color: #F6F8FA;
 }
 
 #contact{

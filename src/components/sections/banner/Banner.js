@@ -1,6 +1,7 @@
 import React from 'react';
 
 import portrait from '../../../img/banner/all.png'
+import portrait2 from '../../../img/banner/all2.png'
 import Button from '../../common/button/Button';
 
 import styles from './Banner.module.css'
@@ -13,7 +14,7 @@ const banner = () => {
             <div id={styles['banner-content']}>
 
                 <div id={styles['picture-side']}>
-                    {/* <img src={portrait} alt=""/> */}
+                    <img src={portrait2} alt=""/>
                 </div>
     
 

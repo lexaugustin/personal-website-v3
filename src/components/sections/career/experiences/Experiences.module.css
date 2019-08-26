@@ -87,6 +87,36 @@
     }
 }
 
+@media (max-width: 840px) {
+    .experiences-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tabs {
+        width: 100%;
+        margin-right: 0;
+        display: flex;
+    }
+
+    .tabs p {
+        margin: 0;
+        padding: 12px 24px;
+    }
+
+    .tabs p:not(.active__tab) {
+        border-left: none;
+        border-bottom: 2px solid rgb(175, 175, 175);
+    }
+
+    .active__tab {
+        color: blue;
+        border-left: none;
+        border-bottom: 3px solid blue;
+        background-color: rgb(224, 224, 243);
+    }
+}
+
 
 /* #content {
     display: flex;

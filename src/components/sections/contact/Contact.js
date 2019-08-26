@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import Button from '../../common/button/Button';
-
+import Socials from '../../common/socials/Socials';
 
 import styles from './Contact.module.css'
 
@@ -10,29 +10,9 @@ class Contact extends Component {
         return (
             <div id={styles.content}>
 
-                <form>
-                    <div className={styles['form-group']}>
-                        <label>Name</label>
-                        <input type="text"/>
-                    </div>
-
-                    <div className={styles['form-group']}>
-                        <label>Email</label>
-                        <input type="email"/>
-                    </div>
-
-                    <div className={styles['form-group']}>
-                        <label>Subject</label>
-                        <input type="text"/>
-                    </div>
-
-                    <div className={styles['form-group']}>
-                        <label>Message</label>
-                        <textarea/>
-                    </div>
-
-                    <Button>Send</Button>
-                </form>
+                <div id={styles.socialIcons}>
+                    <Socials/>
+                </div>
 
             </div>
         )
@@ -41,3 +21,7 @@ class Contact extends Component {
 
 
 export default Contact;
+
+
+
+

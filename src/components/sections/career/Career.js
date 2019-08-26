@@ -3,7 +3,7 @@ import React from 'react'
 import Header from '../../common/header/Header';
 
 import Interests from './interests/Interests'
-import Experience from './experiences/Experiences'
+import Experiences from './experiences/Experiences'
 
 import styles from "./Career.module.css";
 
@@ -16,7 +16,7 @@ const career = () =>{
             <div><Interests/></div>
 
             {/* -------------- EXPERIENCE -------------- */}
-            <div><Experience/></div>
+            <div><Experiences/></div>
             
 
         </div>
