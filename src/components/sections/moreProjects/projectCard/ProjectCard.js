@@ -12,11 +12,11 @@ const projectCard = (props) => {
             <h3 className={styles.name}>{props.name}</h3>
             <p className={styles.platform}>{props.platform}</p>
             <p className={styles.description}>{props.description}</p>
-            <ul className={styles.techs}>
+            {/* <ul className={styles.techs}>
                 <li>Java</li>
                 <li>MongoDB</li>
                 <li>React</li>
-            </ul>
+            </ul> */}
 
             <div className={styles.links}>
 
