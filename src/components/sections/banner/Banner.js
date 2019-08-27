@@ -2,6 +2,7 @@ import React from 'react';
 
 import portrait from '../../../img/banner/all.png'
 import portrait2 from '../../../img/banner/all2.png'
+import portrait3 from '../../../img/banner/all3.png'
 import Button from '../../common/button/Button';
 
 import styles from './Banner.module.css'
@@ -24,7 +25,7 @@ const banner = () => {
                         <div id={styles.bar}></div>
                         <p>With Interests in Web Development, Mobile Development, UI/UX Design and Machine Learning.</p>
 
-                        <div id={styles.contact__button}><Button>Contact</Button></div>
+                        {/* <div id={styles.contact__button}><Button>Contact</Button></div> */}
                     </div>
                 </div>
 

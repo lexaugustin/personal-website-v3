@@ -3,6 +3,7 @@ import React from 'react';
 import styles from './ProjectCard.module.css'
 
 const projectCard = (props) => {
+
     return (
         <div className={styles.card}>
             <div className={styles.icon}>
@@ -19,9 +20,13 @@ const projectCard = (props) => {
 
             <div className={styles.links}>
 
-                <a href={props.liveLink} target="_blank">
-                    <i className="fas fa-external-link-alt"></i>
-                </a>
+                {props.liveLink === 'null' ? null : (
+                    <a href={props.liveLink} target="_blank">
+                        <i className="fas fa-external-link-alt"></i>
+                    </a>
+                ) }
+
+
 
                 <a href={props.gitLink} target="_blank">
                     <i className="fab fa-github"></i>

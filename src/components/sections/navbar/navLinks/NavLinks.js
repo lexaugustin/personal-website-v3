@@ -25,7 +25,7 @@ const navSections = () => {
             <li><NavLink smooth to="../App/App#contact" exact activeClassName="selected">Contact</NavLink></li>
             
             <span id={styles.resumeButton}>
-                <a href="https://www.dropbox.com/s/t7bmk5f2jplqc9k/alexander_augustin_resume.pdf?dl=0" target="_blank">
+                <a href="https://www.dropbox.com/h?preview=alexander_augustin_f19.pdf" target="_blank">
                     <Button>Resume</Button>
                 </a>
             </span>

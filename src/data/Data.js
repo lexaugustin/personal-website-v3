@@ -19,10 +19,18 @@ const data = {
         {
             "name" : "Gaming Trivia",
             "platform" : "iOS MOBILE",
-            "description" : "Task List is a simple to-do list web application. The application allows users to add new tasks to the list, with the ability to line-crossed or delete completed tasks using AJAX calls to the API.",
+            "description" : "iOS trivia app about video games that I worked on while learning iOS development. The user gets to answer 10 questions, and he or she gets 1 points for each correct answer.",
             "techs": [ "AngularJS", "NodeJS", "Express.js", "MongoDB"],
-            "liveLink": "hfhffhffhfhf",
+            "liveLink": "null",
             "gitLink": "https://github.com/lexaugustin/Gaming-Trivia"
+        },
+        {
+            "name" : "Today",
+            "platform" : "iOS MOBILE",
+            "description" : "A simple weather app with a calendar. It shows the weather of the current location and the current day is highlited with the circle. The weather source is OpenWeatherMap.",
+            "techs": [ "AngularJS", "NodeJS", "Express.js", "MongoDB"],
+            "liveLink": "null",
+            "gitLink": "https://github.com/lexaugustin/today"
         },
     ]
 }
