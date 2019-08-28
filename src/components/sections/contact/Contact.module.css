@@ -20,3 +20,19 @@
 #socialIcons li {
     margin-left: 16px; 
 }
+
+/* ===========================================
+Picture
+============================================== */
+#picture {
+    margin-top: 100px;
+    margin-right: 3%;
+    /* position: relative; */
+    width: 75%;
+    max-width: 350px;
+}
+
+/* #picture-side img {
+    width: 94%;
+    max-width: 550px;
+} */

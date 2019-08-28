@@ -32,6 +32,10 @@ section #main{
   transform: skew(0deg, -6deg);
 }
 
+.contact {
+  padding-bottom: 0 !important;
+}
+
 #about #main,
 #about #header,
 #career #main,
