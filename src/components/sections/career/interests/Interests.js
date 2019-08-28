@@ -37,18 +37,18 @@ const interests = (props) => {
                 <Interest
                     icon="fab fa-quinscape"
                     title="UI/UX Design"
-                    description="I am also interesed in UI/UX design as I like to put a 
-                                lot of work in the user interface of my projects to make 
-                                them look the best possible."
+                    description="I also have a lot of interest in UI/UX design as I have been enjoying working
+                                on user-centered projects and like to put a lot of work in the user interface 
+                                of my projects to make them look the best possible."
                     skills="Sketch, AdobeXD"
                 />
 
                 <Interest
                     icon="fas fa-brain"
                     title="Machine Learning"
-                    description="Machine learning is the last area of computer science that 
+                    description="Machine learning is the latest area of computer science that 
                                 has caught my attention after attending some workshops and 
-                                watching some crash courses about the subject."
+                                watching some crash courses about AI and ML."
                 />
             </div>
 

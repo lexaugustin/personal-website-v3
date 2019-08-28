@@ -59,7 +59,7 @@ class Experiences extends Component {
                     >
                     <ul>
                         <li>Developed a GraphQL backend service that returns the exacted data required to the client</li>
-                        <li>Implemented GraphQL querries on the front-end using Apollo, React, Redux and Redux-Saga to fetch data asynchronously</li>
+                        <li>Reduced the number of HTTP calls to APIs by implementing GraphQL queries on the front-end using Apollo, React, Redux and Redux-Saga to fetch data asynchronously</li>
                     </ul>
                     </Experience>
                 )
@@ -111,8 +111,7 @@ class Experiences extends Component {
                     >
                     <ul>
                         <li>
-                            Became familiar with the Git command line tool and learned JavaScript 
-                            to work on a map of their building
+                            Learned JavaScript and became familiar with the Git command line tool to work on a map application of their building.
                         </li>
                     </ul>
                     </Experience>

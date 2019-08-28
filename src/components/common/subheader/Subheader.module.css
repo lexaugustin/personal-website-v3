@@ -23,6 +23,12 @@
     color: #32325D;
 }
 
+@media (max-width: 1294px) {
+    #subheader-icon {
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 1176px) {
     #subheader {
         text-align: center;

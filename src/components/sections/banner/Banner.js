@@ -15,7 +15,7 @@ const banner = () => {
             <div id={styles['banner-content']}>
 
                 <div id={styles['picture-side']}>
-                    <img src={portrait2} alt=""/>
+                    <img src={portrait3} alt=""/>
                 </div>
     
 
