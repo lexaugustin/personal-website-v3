@@ -98,7 +98,7 @@ function App() {
 
 
         {/* --------------- CONTACT--------------- */}
-        <section className='contact'>
+        <section id='contact'>
           <div id="header">
             <Header
               icon = {contactIcon} 

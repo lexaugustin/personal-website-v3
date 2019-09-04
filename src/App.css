@@ -32,7 +32,7 @@ section #main{
   transform: skew(0deg, -6deg);
 }
 
-.contact {
+#contact {
   padding-bottom: 0 !important;
 }
 
