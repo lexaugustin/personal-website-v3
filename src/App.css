@@ -67,14 +67,6 @@ section #main{
 } */
 
 
-
-
-
-
-
-
-
-
 #banner {
   /* background-color: rgb(236, 236, 236); */
 }
@@ -93,4 +85,19 @@ section #main{
 
 #contact{
   /* background-color: rgb(243, 243, 243); */
+}
+
+#preloader {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#preloader img {
+  height: 14vw;
+  width: 14vw;
+  max-height: 80px;
+  max-width: 80px;
 }
