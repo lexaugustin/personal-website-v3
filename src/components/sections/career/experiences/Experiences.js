@@ -130,16 +130,16 @@ class Experiences extends Component {
                     
                     <div className={styles['experiences-content']}>
                         <div className={styles.tabs}>
-                            <p onClick={this.setResearch}> UF Research </p>
+                            <p onClick={this.setResearch}>UF</p>
 
                             <p 
                                 className={styles.active__tab}
                                 // className={this.state.active === 'visa' ? 'styles.active__tab' : ''}
                                 onClick={this.setVisaActive}
-                            > Visa </p>
+                            >Visa</p>
 
-                            <p onClick={this.setExxonActive}> Exxon Mobile </p>
-                            <p onClick={this.setSECActive}> SEC</p>
+                            <p onClick={this.setExxonActive}>ExxonMobil</p>
+                            <p onClick={this.setSECActive}>SEC</p>
                         </div>
                         <div>
                             {experience}

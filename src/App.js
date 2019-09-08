@@ -27,19 +27,19 @@ class App extends Component {
     loading: true
   }
 
-  // componentDidMount() {
-  //   this.setState({
-  //     loading: false
-  //   })
-  // }
-
   componentDidMount() {
-    setTimeout( () => {
-      this.setState({
-        loading: false
-      })
-    }, 2000)
+    this.setState({
+      loading: false
+    })
   }
+
+  // componentDidMount() {
+  //   setTimeout( () => {
+  //     this.setState({
+  //       loading: false
+  //     })
+  //   }, 2000)
+  // }
   
   render() {
 
@@ -55,7 +55,6 @@ class App extends Component {
       display = (
         <BrowserRouter>
           <div className="App">
-    
             {/* --------------- NAVBAR & BANNER--------------- */}
             <div id="home-navbar">
               <Navbar/>
