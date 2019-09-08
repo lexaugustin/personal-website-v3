@@ -27,19 +27,19 @@ class App extends Component {
     loading: true
   }
 
-  componentDidMount() {
-    this.setState({
-      loading: false
-    })
-  }
-
   // componentDidMount() {
-  //   setTimeout( () => {
-  //     this.setState({
-  //       loading: false
-  //     })
-  //   }, 2000)
+  //   this.setState({
+  //     loading: false
+  //   })
   // }
+
+  componentDidMount() {
+    setTimeout( () => {
+      this.setState({
+        loading: false
+      })
+    }, 2000)
+  }
   
   render() {
 
