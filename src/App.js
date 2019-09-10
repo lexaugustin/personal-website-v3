@@ -13,7 +13,6 @@ import Contact from './components/sections/contact/Contact'
 import Footer from './components/sections/footer/Footer'
 
 import Preloader from './img/preloader/preloader.gif'
-
 import aboutIcon, { ReactComponent } from './img/icons/person.svg'
 import latestProjectsIcon from './img/icons/project.svg'
 import contactIcon from './img/icons/letter.svg'
