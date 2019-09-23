@@ -14,7 +14,7 @@ const latestProjects = (props) => {
                         <p className={styles.title}><i className='fas fa-gift'></i><span>Gifty (Tentative Name)</span></p>
                     </div>
 
-                    <p className={styles.intro}>Making it easier to help your favorites charity organizations</p>
+                    <p className={styles.intro}>Making it easier to help your favorite charity organizations</p>
 
                     <div className={styles.description}>
                         <p> Donation mobile application that facilitates charity organizations’ funding needs. 
