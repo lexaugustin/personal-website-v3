@@ -8,10 +8,6 @@
     margin: 0 auto;
 }
 
-#gifty {
-    flex-direction: row;   
-}
-
 .details {
     width: 100%;
     max-width: 450px;
@@ -54,8 +50,7 @@
 }
 
 .links a {
-    text-decoration: none;    
-    
+    text-decoration: none;        
 }
 
 .links p:first-of-type {
@@ -64,6 +59,12 @@
 
 .links p i {
     margin-left: 8px;
+}
+
+@media (min-width: 960px) {
+    #gifty {
+        flex-direction: row;   
+    }
 }
 
 @media (min-width: 960px) and (max-width: 1176px) {
