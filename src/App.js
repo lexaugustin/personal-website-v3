@@ -6,7 +6,7 @@ import Header from './components/common/header/Header'
 import Navbar from './components/sections/navbar/Navbar'
 import Banner from './components/sections/banner/Banner'
 import About from './components/sections/about/About'
-import LatestProjects from './components/sections/latestProjects/LatestProjects'
+import LatestProjects from './components/sections/latestProjects/LatestProject'
 import MoreProjects from './components/sections/moreProjects/MoreProjects'
 import Career from './components/sections/career/Career'
 import Contact from './components/sections/contact/Contact'
@@ -26,19 +26,19 @@ class App extends Component {
     loading: true
   }
 
-  // componentDidMount() {
-  //   this.setState({
-  //     loading: false
-  //   })
-  // }
-
   componentDidMount() {
-    setTimeout( () => {
-      this.setState({
-        loading: false
-      })
-    }, 2000)
+    this.setState({
+      loading: false
+    })
   }
+
+  // componentDidMount() {
+  //   setTimeout( () => {
+  //     this.setState({
+  //       loading: false
+  //     })
+  //   }, 2000)
+  // }
   
   render() {
 

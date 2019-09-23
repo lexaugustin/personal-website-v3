@@ -8,6 +8,10 @@
     margin: 0 auto;
 }
 
+#gifty {
+    flex-direction: row;   
+}
+
 .details {
     width: 100%;
     max-width: 450px;
@@ -47,6 +51,11 @@
 
 .links {
     margin-top: 32px;
+}
+
+.links a {
+    text-decoration: none;    
+    
 }
 
 .links p:first-of-type {

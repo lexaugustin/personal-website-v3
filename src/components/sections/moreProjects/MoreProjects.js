@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import { Spring } from 'react-spring/renderprops'
+
 import ProjectCard from './projectCard/ProjectCard'
 import styles from './MoreProjects.module.css'
 
@@ -30,13 +32,23 @@ class MoreProjects extends Component {
         const projects = data.projects.map(project => {
             return (
                 <li className={styles.project}>
-                    <ProjectCard
-                        name={project.name}
-                        platform={project.platform}
-                        description={project.description}
-                        liveLink={project.liveLink}
-                        gitLink={project.gitLink}
-                    />
+                    <Spring
+                        from={{opacity: 0}}
+                        to={{opacity: 1}}
+                        config={{duration:1000}}
+                    >
+                        {props => (
+                            <div style={props}>
+                                <ProjectCard
+                                    name={project.name}
+                                    platform={project.platform}
+                                    description={project.description}
+                                    liveLink={project.liveLink}
+                                    gitLink={project.gitLink}
+                                />
+                            </div>
+                        )}
+                    </Spring>
                 </li> 
             )
         })
@@ -64,8 +76,6 @@ class MoreProjects extends Component {
                 </div>
             )
         }
-
-        console.log(data)
 
         return (
             <div className={styles.content}>

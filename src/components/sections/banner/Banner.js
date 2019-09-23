@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Spring } from 'react-spring/renderprops'
+import { Transition } from 'react-spring/renderprops'
 
 import portrait from '../../../img/banner/all.png'
 import portrait2 from '../../../img/banner/all2.png'
@@ -29,9 +30,18 @@ const banner = () => {
                         )}
 
                     </Spring>
-                </div>
-    
 
+                    {/* <Transition
+                        items={on}
+                        from={{ opacity: 0 }}
+                        enter={{ opacity: 1 }}
+                        leave={{ opacity: 0 }}>
+                        {on => on && (props => <div style={props}>✌️</div>)}
+                    </Transition> */}
+                </div>
+
+                
+    
                 <div id={styles['text-side']}>
                     <Spring
                         from={{opacity: 0}}
