@@ -19,17 +19,17 @@ class Contact extends Component {
 
 
 
-                    <Spring
+                    {/* <Spring
                         from={{opacity: 0, marginBottom: -500}}
                         to={{opacity: 1, marginBottom: 0}}
                         config={{duration:10000}}
                         >
-                        {props => (
-                            <div style={props}>
+                        {props => ( */}
+                            <div>
                                 <img id={styles['picture']} src={portrait2} alt=""/>
                             </div>
-                        )}
-                    </Spring>
+                    {/* //     )}
+                    // </Spring> */}
 
                     {/* <div id={styles['picture']}> */}
                         {/* <img id={styles['picture']} src={portrait2} alt=""/> */}
