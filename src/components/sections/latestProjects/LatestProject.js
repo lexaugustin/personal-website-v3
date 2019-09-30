@@ -8,7 +8,7 @@ import giftyScreen from '../../../img/projects/gifty.png';
 const latestProjects = (props) => {
     return (
         <div>
-            <div className={styles.content}>
+            {/* <div className={styles.content}>
                 <div className={styles.details}>
                     <div className={styles.title}>
                         <p className={styles.title}><i className='fas fa-gift'></i><span>Gifty (Tentative Name)</span></p>
@@ -22,26 +22,19 @@ const latestProjects = (props) => {
                             through the app, and including the corresponding shipping and logistics.
                         </p>
                     </div>
-
-                    <div className={styles.links}>
-                        {/* <a href="google.com" target="_blank">
-                            <p>See More<i className="fas fa-long-arrow-alt-right"></i></p>
-                        </a> */}
-
-                        {/* <a href="https://github.com/lexaugustin/today" target="_blank">
-                            <p className={styles.igithub}>Github<i className="fab fa-github-alt"></i></p>
-                        </a> */}
-                    </div>
                 </div>
 
                 <div className={styles.screen}>
                     <img src={giftyScreen} alt="Gifty Screenshots"/>
                 </div>
-            </div>
+            </div> */}
 
 
 
             <div id={styles.gifty} className={styles.content}>
+                <div className={styles.screen}>
+                    <img src='https://lexaugustin.github.io/img/projects/today/today-screen.png' alt="Today Screenshot"/>
+                </div>
                 <div className={styles.details}>
                     <div className={styles.title}>
                         <p className={styles.title}><i className='far fa-sun'></i><span>Today</span></p>
@@ -69,10 +62,6 @@ const latestProjects = (props) => {
                             <p className={styles.igithub}>Github<i className="fab fa-github-alt"></i></p>
                         </a>
                     </div>
-                </div>
-
-                <div className={styles.screen}>
-                    <img src='https://lexaugustin.github.io/img/projects/today/today-screen.png' alt="Today Screenshot"/>
                 </div>
             </div>
             
